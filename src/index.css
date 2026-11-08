@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: "Space Grotesk", system-ui, -apple-system, sans-serif;
+  --font-sans: "DM Sans", system-ui, -apple-system, sans-serif;
+  --color-brand-forest: #07150e;
+  --color-brand-pine: #0c2016;
+  --color-brand-moss: #143224;
+  --color-brand-mint: #34d399;
+  --color-brand-emerald: #10b981;
+  --color-brand-sage: #9ae6b4;
+  --color-brand-offwhite: #f5f7f4;
+}
+
+/* Base styles and smooth scrollbar */
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #081610;
+  color: #f1f5f2;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #081610;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #193d2c;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #255c42;
+}
