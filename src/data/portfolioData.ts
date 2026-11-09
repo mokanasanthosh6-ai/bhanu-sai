@@ -79,7 +79,7 @@ export const EDUCATION_DATA = {
   academicPeriod: "2026–Present",
   focusAreas: [
     "Foundational Mathematics & Discrete Structures",
-    "Object-Oriented Programming (Java) & Paradigm Design",
+    "Object-Oriented Programming & Paradigm Design",
     "Introduction to Artificial Intelligence & Heuristics",
     "Problem Solving in Python & Computational Thinking",
     "Web Technologies, Semantic Markup & Client-side Scripting",
@@ -109,15 +109,6 @@ export const SKILLS_DATA: Skill[] = [
     description:
       "Core procedural and functional programming, scripting, mathematical computation, and data manipulation.",
     keyTopics: ["Syntax & Data Structures", "File Handling", "Algorithm Implementation", "Basic Automation"],
-  },
-  {
-    id: "java",
-    name: "Java",
-    status: "learning",
-    category: "Language",
-    description:
-      "Object-oriented programming principles, class architectures, inheritance, encapsulation, and modular design.",
-    keyTopics: ["OOP Principles", "Class Hierarchies", "Exception Handling", "Collections Basics"],
   },
   {
     id: "html",
@@ -273,7 +264,7 @@ export const ACHIEVEMENTS_DATA: Achievement[] = [
     category: "Coding Milestone",
     badge: "Problem Solving",
     description:
-      "Demonstrated persistent daily commitment to coding by implementing and debugging solutions across arrays, string algorithms, recursion, OOP patterns, and hash maps in Python and Java.",
+      "Demonstrated persistent daily commitment to coding by implementing and debugging solutions across arrays, string algorithms, recursion, OOP patterns, and hash maps in Python and computational logic.",
     impact: "Consistent Daily Practice",
   },
   {

@@ -31,7 +31,7 @@ export const About: React.FC = () => {
               My journey into engineering began with simple curiosity: understanding how computers think, how complex data structures optimize memory, and how mathematical models enable software to make intelligent inferences. Rather than treating code as abstract syntax, I view it as an expressive toolkit to build solutions that matter.
             </p>
             <p>
-              Every week, I balance theoretical foundations with hands-on implementation—exploring object-oriented programming in Java, computational scripting and data visualization in Python, and clean, accessible interfaces on the web. I believe the most effective engineers are those who love both foundational fundamentals and pragmatic shipping.
+              Every week, I balance theoretical foundations with hands-on implementation—exploring object-oriented programming, computational scripting, and algorithm design in Python, along with clean, accessible interfaces on the web. I believe the most effective engineers are those who love both foundational fundamentals and pragmatic shipping.
             </p>
 
             {/* Core Values / Philosophy inline highlights */}
@@ -80,7 +80,7 @@ export const About: React.FC = () => {
               </div>
               <div className="pt-3 flex justify-between items-baseline gap-4">
                 <span className="text-xs uppercase tracking-wider text-slate-400">Primary Languages</span>
-                <span className="font-medium text-slate-200 text-right">Python, Java</span>
+                <span className="font-medium text-slate-200 text-right">Python</span>
               </div>
               <div className="pt-3 flex justify-between items-baseline gap-4">
                 <span className="text-xs uppercase tracking-wider text-slate-400">Aspiration</span>

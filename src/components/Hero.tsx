@@ -163,8 +163,6 @@ export const Hero: React.FC = () => {
                     <span className="text-emerald-300">&quot;languages&quot;</span>
                     <span className="text-slate-400">: [</span>
                     <span className="text-emerald-300">&quot;Python&quot;</span>
-                    <span className="text-slate-400">, </span>
-                    <span className="text-emerald-300">&quot;Java&quot;</span>
                     <span className="text-slate-200">]</span>
                     <span className="text-slate-400">,</span>
                   </div>
@@ -219,8 +217,8 @@ export const Hero: React.FC = () => {
 
           <div className="flex flex-col">
             <span className="text-xs uppercase tracking-wider text-slate-500 mb-1">Technical Focus</span>
-            <span className="font-heading font-semibold text-slate-100 text-sm sm:text-base">Python & Java</span>
-            <span className="text-xs text-slate-400">Web & Problem Solving</span>
+            <span className="font-heading font-semibold text-slate-100 text-sm sm:text-base">Python &amp; AI</span>
+            <span className="text-xs text-slate-400">Web &amp; Problem Solving</span>
           </div>
         </div>
       </div>
